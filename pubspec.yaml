@@ -1,0 +1,13 @@
+name: ir_remote
+description: Learning IR remote via ESP32 BLE
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.32.0
+  shared_preferences: ^2.2.0
+flutter:
+  uses-material-design: true
